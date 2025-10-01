@@ -1,9 +1,9 @@
-# 📊 Global Layoffs SQL Analysis  
+### 📊 Global Layoffs SQL Analysis  
 
 This project explores a dataset of **global layoffs** using **MySQL** to uncover insights about workforce reductions across companies, industries, and countries.  
 It demonstrates **SQL data exploration, stored procedures, CTEs, views, and window functions** while extracting **business-relevant insights**. 
 
-## Key Takeaway and Business Insights 
+### Key Takeaway and Business Insights 
 
 ### 1. Layoffs are highly concentrated in a small number of companies and industries  
 - Risk is **industry-specific** (e.g., tech, retail, finance).  
@@ -30,12 +30,12 @@ It demonstrates **SQL data exploration, stored procedures, CTEs, views, and wind
 - Competitors can **attract laid-off talent** to strengthen their teams.  
 - Investors can flag repeatedly affected companies as **high-risk**.
 
-## Dataset  
+### Dataset  
 - **Database**: `global_layoffs`  
 - **Table**: `layoffs_staging_dedup`  
 - Contains records of company layoffs with details such as `company`, `industry`, `country`, `date`, and `total_laid_off`.  
 
-## SQL Techniques Used  
+### SQL Techniques Used  
 - Aggregations (`SUM`, `AVG`, `MIN`, `MAX`)  
 - Grouping & Filtering (`GROUP BY`, `WHERE`)  
 - Stored Procedure for parameterized queries  
